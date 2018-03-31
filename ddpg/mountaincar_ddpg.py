@@ -1,6 +1,7 @@
+# From https://github.com/lirnli/OpenAI-gym-solutions/blob/master/Continuous_Deep_Deterministic_Policy_Gradient_Net/DDPG%20Class%20ver2.ipynb
+
 import datetime
 print(datetime.datetime.now().isoformat())
-
 import numpy as np
 import tensorflow as tf
 from functools import partial
