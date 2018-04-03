@@ -7,6 +7,9 @@
 - Continuous control with deep reinforcement learning (https://arxiv.org/abs/1509.02971)
 - Dueling Network Architectures for Deep Reinforcement Learning (https://arxiv.org/abs/1511.06581)
 
+## Other refence
+- Deep Reinforcement Learning that Matters (https://arxiv.org/pdf/1709.06560.pdf)
+
 ## Experimentations
 Tests were done on 3 different environments: OpenAi-Gym (MountainCarContinuous), Mujoco (Reacher) and Atari (Breakout).
 ### OpenAi-Gym (MountainCarContinuous)
