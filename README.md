@@ -26,12 +26,17 @@ Tests were done on 3 different environments: OpenAi-Gym (MountainCarContinuous),
 To get the source code, execute the following commands:
 ```
 git clone https://github.com/lajoiepy/Reinforcement_Learning_PPO.git
+cd Reinforcement_Learning_PPO
 git submodule init
 git submodule update
 ```
-The source code in `src/baselines` is a fork of https://github.com/openai/baselines.
-The source code in `src/mountaincar-continuous/ddpg` is mostly from https://github.com/lirnli/OpenAI-gym-solutions/blob/master/Continuous_Deep_Deterministic_Policy_Gradient_Net/DDPG%20Class%20ver2.ipynb
-The source code in `src/mountaincar-continuous/dqn` is inspired from http://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html 
-The source code in `src/mountaincar-continuous/ppo` is mostly from https://github.com/tpbarron/pytorch-ppo
+- The source code in `src/baselines` is a fork of https://github.com/openai/baselines.
+- The source code in `src/mountaincar-continuous/ddpg` is mostly from https://github.com/lirnli/OpenAI-gym-solutions/blob/master/Continuous_Deep_Deterministic_Policy_Gradient_Net/DDPG%20Class%20ver2.ipynb
+- The source code in `src/mountaincar-continuous/dqn` is inspired from http://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html 
+- The source code in `src/mountaincar-continuous/ppo` is mostly from https://github.com/tpbarron/pytorch-ppo
 
 ## Requirements
+- Pytorch for `src/mountaincar-continuous/dqn` and `src/mountaincar-continuous/ppo`.
+- Tensorflow for `src/mountaincar-continuous/ddpg` and `src/baselines`.
+- Gym for `src/mountaincar-continuous`.
+- Mujoco and Atari for `src/baselines`.
