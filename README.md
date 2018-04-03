@@ -23,6 +23,15 @@ Tests were done on 3 different environments: OpenAi-Gym (MountainCarContinuous),
 - PPO (`src/baselines/baselines/ppo2` and `results/atari-breakout/ppo`)
 
 ## Source code
-
+To get the source code, execute the following commands:
+```
+git clone https://github.com/lajoiepy/Reinforcement_Learning_PPO.git
+git submodule init
+git submodule update
+```
+The source code in `src/baselines` is a fork of https://github.com/openai/baselines.
+The source code in `src/mountaincar-continuous/ddpg` is mostly from https://github.com/lirnli/OpenAI-gym-solutions/blob/master/Continuous_Deep_Deterministic_Policy_Gradient_Net/DDPG%20Class%20ver2.ipynb
+The source code in `src/mountaincar-continuous/dqn` is inspired from http://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html 
+The source code in `src/mountaincar-continuous/ppo` is mostly from https://github.com/tpbarron/pytorch-ppo
 
 ## Requirements
