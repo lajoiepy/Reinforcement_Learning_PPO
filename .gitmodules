@@ -1,3 +1,6 @@
 [submodule "src/baselines"]
 	path = src/baselines
 	url = https://github.com/lajoiepy/baselines.git
+[submodule "src/mountaincar-continuous/pytorch-ppo"]
+	path = src/mountaincar-continuous/pytorch-ppo
+	url = https://github.com/lajoiepy/pytorch-ppo.git

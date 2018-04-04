@@ -9,6 +9,8 @@
 
 ## Other refence
 - Deep Reinforcement Learning that Matters (https://arxiv.org/pdf/1709.06560.pdf)
+- Reproducibility of Benchmarked Deep Reinforcement
+Learning Tasks for Continuous Control (https://arxiv.org/pdf/1708.04133.pdf)
 
 ## Experimentations
 Tests were done on 3 different environments: OpenAi-Gym (MountainCarContinuous), Mujoco (Reacher) and Atari (Breakout).
@@ -36,7 +38,7 @@ git submodule update
 - The source code in `src/baselines` is a fork of https://github.com/openai/baselines.
 - The source code in `src/mountaincar-continuous/ddpg` is mostly from https://github.com/lirnli/OpenAI-gym-solutions/blob/master/Continuous_Deep_Deterministic_Policy_Gradient_Net/DDPG%20Class%20ver2.ipynb
 - The source code in `src/mountaincar-continuous/dqn` is inspired from http://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html 
-- The source code in `src/mountaincar-continuous/ppo` is mostly from https://github.com/tpbarron/pytorch-ppo
+- The source code in `src/mountaincar-continuous/ppo` is a fork from https://github.com/tpbarron/pytorch-ppo
 
 ## Requirements
 - Pytorch for `src/mountaincar-continuous/dqn` and `src/mountaincar-continuous/ppo`.
