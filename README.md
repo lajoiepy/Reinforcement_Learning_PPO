@@ -45,3 +45,9 @@ git submodule update
 - Tensorflow for `src/mountaincar-continuous/ddpg` and `src/baselines`.
 - Gym for `src/mountaincar-continuous`.
 - Mujoco and Atari for `src/baselines`.
+
+## Execute tests
+- Follow README files for code in `src/baselines`.
+- For PPO on Gym environnements run `python3 src/mountaincar-continuous/pytorch-ppo/main.py --env-name MountainCarContinuous-v0`.
+- For the DQN implementation run `python3 mountaincar_dqn.py`.
+- For the DDPG implementation run `python3 mountaincar_ddpg.py`.
