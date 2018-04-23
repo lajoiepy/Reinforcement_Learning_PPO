@@ -20,11 +20,11 @@ Tests were done on 3 different environments: OpenAi-Gym (MountainCarContinuous),
 - PPO (`src/mountaincar-continuous/ppo` and `results/gym-mountaincarcontinuous/ppo`)
 ### Mujoco (Reacher)
 - DDPG (`src/baselines/baselines/ddpg` and `results/mujoco-reacher/ddpg`)
-- TRPO (`src/baselines/baselines/trpo_mp` and `results/mujoco-reacher/trpo`)
+- TRPO (`src/baselines/baselines/trpo_mpi` and `results/mujoco-reacher/trpo`)
 - PPO (`src/baselines/baselines/ppo2` and `results/mujoco-reacher/ppo`)
 ### Atari (Breakout)
 - ACER (`src/baselines/baselines/acer` and `results/atari-breakout/acer`)
-- TRPO (`src/baselines/baselines/trpo_mp` and `results/atari-breakout/trpo`)
+- TRPO (`src/baselines/baselines/trpo_mpi` and `results/atari-breakout/trpo`)
 - PPO (`src/baselines/baselines/ppo2` and `results/atari-breakout/ppo`)
 
 ## Source code
